@@ -1,5 +1,9 @@
-A = 100
+A = 100.1
 print("The value of A is: ",A)
+print(type(A))
+
+B = int(A)
+print(type(B))
 
 '''
 python syntax:
