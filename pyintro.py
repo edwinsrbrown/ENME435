@@ -35,6 +35,6 @@ print(D)
 E = "World Lidar \nDay"
 print(E)
 
-val1 = int(input("type a number"))
-val2 = int(input("type a second number"))
+val1 = int(input("type a number: "))
+val2 = int(input("type a second number: "))
 print("The numbers added together equal ", val1 + val2)
