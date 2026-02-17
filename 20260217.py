@@ -19,3 +19,5 @@ print("Index 2 of A: ", A[2])
 print("Type of index 2 of A: ", type(A[2]))
 
 # A[-1] gives the last element of the array
+
+# interactive mode "python -i [name of file]"
