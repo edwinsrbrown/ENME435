@@ -4,3 +4,6 @@ while x < 10:
     print("Lasers rule!")
   print(x)
   x += 1
+
+for i in range(10):
+  print(i)
