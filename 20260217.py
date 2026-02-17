@@ -17,3 +17,5 @@ A = np.array([100,200,300])
 print(A)
 print("Index 2 of A: ", A[2])
 print("Type of index 2 of A: ", type(A[2]))
+
+# A[-1] gives the last element of the array
