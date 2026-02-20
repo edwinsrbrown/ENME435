@@ -37,7 +37,7 @@ list = [] # initalize numbers as an empty list
 for i in range(10):
   number = input("Enter number: ")
   list.append(number)
-'''
+
 # Q6
 print("Q6")
 x = input("Enter a number: ")
@@ -55,7 +55,7 @@ while j < 50:
   print()
   x += 1
   j += 1
-
+'''
 # Q8
 print("Q8")
 '''
