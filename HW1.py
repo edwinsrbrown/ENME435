@@ -30,14 +30,21 @@ elif(w > x and y > z):
   x, z = z, x
 
 print("After swap w,x,y,z = ", w,x,y,z)
-
+'''
 # Q5
 print("Q5")
-list = [] # initalize numbers as an empty list
+list = [] # initalize empty lists
+noDupList = []
 for i in range(10):
-  number = input("Enter number: ")
+  number = int(input("Enter number: "))
   list.append(number)
 
+noDupList = set(list) # removes duplicate numbers/entries
+noDupLust.sort() # sorts list in order from smallest to highest value
+small1 = noDupList[0]
+small2 = noDupList[1]
+print("The two smallest numbers are: ", small1, small2)
+'''
 # Q6
 print("Q6")
 x = input("Enter a number: ")
@@ -55,7 +62,7 @@ while j < 50:
   print()
   x += 1
   j += 1
-'''
+
 # Q8
 print("Q8")
 numbers = 0;
@@ -77,7 +84,7 @@ if y == True: # print yes or no depending on inputs
   print("Yes, a number less than 3 was entered")
 elif y == False:
   print("No, there was not a number less than 3 entered")
-          
+'''       
 
 
       
