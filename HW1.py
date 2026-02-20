@@ -21,16 +21,12 @@ w, x, y, z = int(w), int(x), int(y), int(z)
 
 if(w < x and y < z):
   w, y = y, w
-  w, x, y, z = tv2, x, tv1, z
 elif(w < x and y > z):
   w, z = z, w
-  w, x, y, z = tv2, x, y, tv1
 elif(w > x and y < z):
   x, y = y, x
-  w, x, y, z = w, tv2, tv1, z
 elif(w > x and y > z):
   x, z = z, x
-  w, x, y, z = w, tv2, y, tv1
 
 print("After swap w,x,y,z = ", w,x,y,z)
 
