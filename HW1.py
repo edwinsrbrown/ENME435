@@ -4,7 +4,7 @@ UID: 118892924
 2/20/2026
 HW1
 '''
-
+'''
 # Q3
 print("Q3")
 import random as rand
@@ -41,12 +41,21 @@ print("After swap w,x,y,z = ", w,x,y,z)
 # Q5
 print("Q5")
 list = [] # initalize numbers as an empty list
-for i in range (10):
+for i in range(10):
   number = input("Enter number: ")
   list.append(number)
-
+'''
 # Q6
 print("Q6")
+x = input("Enter a number: ")
+for i in range(x):
+  print("A", end ='')
+'''
+# Q7
+print("Q7")
+'''
 
+      
+      
 
 
