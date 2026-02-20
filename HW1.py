@@ -43,7 +43,7 @@ print("Q6")
 x = input("Enter a number: ")
 for i in range(int(x)): # converts string input into int
   print("A", end ='') # print A however many times user input is
-'''
+
 # Q7
 print("Q7")
 j = 0
@@ -58,7 +58,26 @@ while j < 50:
 '''
 # Q8
 print("Q8")
-'''
+numbers = 0;
+y = False;
+
+while 1:
+  x = int(input("Enter the numbers 1-10 in any sequence:  "))
+  numbers += 1
+
+  if x < 3:
+    y = True
+
+  if x == 5:
+    break
+
+print("The total numbers entered is ", numbers)
+
+if y == True
+  print("Yes, a number less than 3 was entered")
+elif y == False
+  print("No, there was not a number less than 3 entered")
+          
 
 
       
