@@ -73,9 +73,9 @@ while 1:
 
 print("The total numbers entered is ", numbers)
 
-if y == True
+if y == True:
   print("Yes, a number less than 3 was entered")
-elif y == False
+elif y == False:
   print("No, there was not a number less than 3 entered")
           
 
