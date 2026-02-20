@@ -40,7 +40,7 @@ for i in range(10):
   list.append(number)
 
 noDupList = set(list) # removes duplicate numbers/entries
-noDupLust.sort() # sorts list in order from smallest to highest value
+noDupList.sort() # sorts list in order from smallest to highest value
 small1 = noDupList[0]
 small2 = noDupList[1]
 print("The two smallest numbers are: ", small1, small2)
