@@ -61,19 +61,19 @@ print("Q8")
 numbers = 0;
 y = False;
 
-while 1:
+while 1: # infinite loop
   x = int(input("Enter the numbers 1-10 in any sequence:  "))
-  numbers += 1
+  numbers += 1 # count each input
 
   if x < 3:
-    y = True
+    y = True # idnetifies whenever a number less than 3 is inputted
 
   if x == 5:
-    break
+    break # break infinite loop if a 5 is inputted
 
 print("The total numbers entered is ", numbers)
 
-if y == True:
+if y == True: # print yes or no depending on inputs
   print("Yes, a number less than 3 was entered")
 elif y == False:
   print("No, there was not a number less than 3 entered")
