@@ -30,7 +30,7 @@ elif(w > x and y > z):
   x, z = z, x
 
 print("After swap w,x,y,z = ", w,x,y,z)
-'''
+
 # Q5
 print("Q5")
 list = [] # initalize numbers as an empty list
@@ -43,7 +43,7 @@ print("Q6")
 x = input("Enter a number: ")
 for i in range(int(x)): # converts string input into int
   print("A", end ='') # print A however many times user input is
-
+'''
 # Q7
 print("Q7")
 j = 0
