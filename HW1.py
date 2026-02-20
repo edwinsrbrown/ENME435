@@ -48,7 +48,7 @@ for i in range(10):
 # Q6
 print("Q6")
 x = input("Enter a number: ")
-for i in range(x):
+for i in range(int(x)):
   print("A", end ='')
 '''
 # Q7
