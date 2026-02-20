@@ -17,35 +17,29 @@ import numpy as np
 
 tv1 = 0;
 tv2 = 0;
-w = input("Input value #1: ")
-x = input("Input value #2: ")
-y = input("Input value #3: ")
-z = input("Input value #4: ")
+w = input("w = ")
+x = input("x = ")
+y = input("y = ")
+z = input("z = ")
 w, x, y, z = int(w), int(x), int(y), int(z)
 
-if(w < x):
-  tv1 = w
-elif(w > x):
-  tv1 = x
-
-if(y < z):
-  tv2 = y
-elif(y > z):
-  tv2 = z
-
-tv1,tv2 = tv2,tv1
-
 if(w < x & y < z):
+  tv1 = w
+  tv2 = y
   w, x, y, z = tv2, x, tv1, z
 if(w < x & y > z):
+  tv1 = w
+  tv2 = z
   w, x, y, z = tv2, x, y, tv1
 if(w > x & y < z):
+  tv1 = x
+  tv2 = y
   w, x, y, z = w, tv2, tv1, z
 if(w > x & y > z):
+  tv1 = x
+  tv2 = z
   w, x, y, z = w, tv2, y, tv1
 
-print("w = ",w)
-print("x = ",x)
-print("y = ",y)
-print("z = ",z)
+print("After swap w,x,y,z = ",w,x,y,z)
+
 
