@@ -1,5 +1,5 @@
 import random as rand
-'''
+
 # Q3
 print("Q3")
 i = 0
@@ -30,20 +30,20 @@ elif(w > x and y > z):
   x, z = z, x
 
 print("After swap w,x,y,z = ", w,x,y,z)
-'''
+
 # Q5
 print("Q5")
-userInput = [] # initalize empty lists
-for i in range(10):
+userInput = [] # initalize empty list
+for i in range(10): # for 10 numbers
   number = int(input("Enter number: "))
-  userInput.append(number)
+  userInput.append(number) # place user input number into the next index of the list
 
 noDupList = list(set(userInput)) # removes duplicate numbers/entries and creates new list
 noDupList.sort() # sorts list in order from smallest to highest value
-small1 = noDupList[0]
+small1 = noDupList[0] # print the first two indexes as they are the smallest numbers
 small2 = noDupList[1]
 print("The two smallest numbers are: ", small1, small2)
-'''
+
 # Q6
 print("Q6")
 x = input("Enter a number: ")
@@ -52,8 +52,8 @@ for i in range(int(x)): # converts string input into int
 
 # Q7
 print("Q7")
-j = 0
-x = 10
+j = 0 # while loop var
+x = 10 # original length of 0s and 1s
 while j < 50:
   for i in range(x):
     y = rand.randint(0,1)
@@ -72,7 +72,7 @@ while 1: # infinite loop
   numbers += 1 # count each input
 
   if x < 3:
-    y = True # idnetifies whenever a number less than 3 is inputted
+    y = True # identifies whenever a number less than 3 is inputted
 
   if x == 5:
     break # break infinite loop if a 5 is inputted
@@ -83,7 +83,7 @@ if y == True: # print yes or no depending on inputs
   print("Yes, a number less than 3 was entered")
 elif y == False:
   print("No, there was not a number less than 3 entered")
-'''       
+     
 
 
       
