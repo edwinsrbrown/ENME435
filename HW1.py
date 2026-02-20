@@ -1,3 +1,4 @@
+import random as rand
 '''
 Edwin Brown
 UID: 118892924
@@ -6,8 +7,6 @@ HW1
 
 # Q3
 print("Q3")
-import random as rand
-
 i = 0
 z = 0
 while i < 10000:
