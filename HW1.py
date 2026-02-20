@@ -36,13 +36,13 @@ elif(y > z):
 tv1,tv2 = tv2,tv1
 
 if(w < x & y < z):
-  w, x, y, z = tv1, x, tv2, z
+  w, x, y, z = tv2, x, tv1, z
 if(w < x & y > z):
-  w, x, y, z = tv1, x, y, tv2
+  w, x, y, z = tv2, x, y, tv1
 if(w > x & y < z):
-  w, x, y, z = w, tv1, tv2, z
+  w, x, y, z = w, tv2, tv1, z
 if(w > x & y > z):
-  w, x, y, z = w, tv1, y, tv2
+  w, x, y, z = w, tv2, y, tv1
 
 print("w = ",w)
 print("x = ",x)
