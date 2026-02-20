@@ -24,12 +24,12 @@ z = input("Input value #4: ")
 
 if(w < x):
   tv1 = w
-else
+elif(w > x):
   tv1 = x
 
 if(y < z):
   tv2 = y
-else
+elif(y > z):
   tv2 = z
 
 tv1,tv2 = tv2,tv1
