@@ -34,12 +34,11 @@ print("After swap w,x,y,z = ", w,x,y,z)
 # Q5
 print("Q5")
 list = [] # initalize empty lists
-noDupList = []
 for i in range(10):
   number = int(input("Enter number: "))
   list.append(number)
 
-noDupList = set(list) # removes duplicate numbers/entries
+noDupList = list(set(list)) # removes duplicate numbers/entries and creates new list
 noDupList.sort() # sorts list in order from smallest to highest value
 small1 = noDupList[0]
 small2 = noDupList[1]
