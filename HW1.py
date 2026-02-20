@@ -11,7 +11,7 @@ while i < 10000:
   if(x == y):
     z += 1 # increment z whenever doubles appears
 print("The percentage of rolls that are doubles are: ", z/i *100) 
-'''
+
 # Q4
 print("Q4")
 w = input("w = ")
@@ -37,7 +37,7 @@ list = [] # initalize numbers as an empty list
 for i in range(10):
   number = input("Enter number: ")
   list.append(number)
-
+'''
 # Q6
 print("Q6")
 x = input("Enter a number: ")
