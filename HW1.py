@@ -1,5 +1,5 @@
 import random as rand
-
+'''
 # Q3
 print("Q3")
 i = 0
@@ -30,7 +30,7 @@ elif(w > x and y > z):
   x, z = z, x
 
 print("After swap w,x,y,z = ", w,x,y,z)
-
+'''
 # Q5
 print("Q5")
 list = [] # initalize numbers as an empty list
@@ -58,7 +58,7 @@ while j < 50:
 
 # Q8
 print("Q8")
-'''
+
 
 
       
