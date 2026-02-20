@@ -57,6 +57,7 @@ while j < 50:
   for i in range(x):
     y = rand.randint(0,1)
     print(y, end ='')
+  print('/n')
   x += 1
   j += 1
 
