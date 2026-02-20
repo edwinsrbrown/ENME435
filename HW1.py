@@ -1,9 +1,4 @@
 import random as rand
-'''
-Edwin Brown
-UID: 118892924
-2/20/2026
-HW1
 
 # Q3
 print("Q3")
@@ -16,7 +11,7 @@ while i < 10000:
   if(x == y):
     z += 1 # increment z whenever doubles appears
 print("The percentage of rolls that are doubles are: ", z/i *100) 
-
+'''
 # Q4
 print("Q4")
 w = input("w = ")
@@ -48,7 +43,7 @@ print("Q6")
 x = input("Enter a number: ")
 for i in range(int(x)): # converts string input into int
   print("A", end ='') # print A however many times user input is
-'''
+
 # Q7
 print("Q7")
 j = 0
@@ -61,6 +56,9 @@ while j < 50:
   x += 1
   j += 1
 
+# Q8
+print("Q8")
+'''
 
 
       
