@@ -34,13 +34,13 @@ elif(y > z):
 
 tv1,tv2 = tv2,tv1
 
-if(w < x && y < z)
+if(w < x & y < z)
 w, x, y, z = tv1, x, tv2, z
-if(w < x && y > z)
+if(w < x & y > z)
 w, x, y, z = tv1, x, y, tv2
-if(w > x && y < z)
+if(w > x & y < z)
 w, x, y, z = w, tv1, tv2, z
-if(w > x && y > z)
+if(w > x & y > z)
 w, x, y, z = w, tv1, y, tv2
 
 print("w = ",w)
