@@ -21,6 +21,7 @@ w = input("Input value #1: ")
 x = input("Input value #2: ")
 y = input("Input value #3: ")
 z = input("Input value #4: ")
+w, x, y, z = int(w), int(x), int(y), int(z)
 
 if(w < x):
   tv1 = w
