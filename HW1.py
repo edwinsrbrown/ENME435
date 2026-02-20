@@ -3,8 +3,7 @@ Edwin Brown
 UID: 118892924
 2/20/2026
 HW1
-'''
-'''
+
 # Q3
 print("Q3")
 import random as rand
@@ -44,16 +43,25 @@ list = [] # initalize numbers as an empty list
 for i in range(10):
   number = input("Enter number: ")
   list.append(number)
-'''
+
 # Q6
 print("Q6")
 x = input("Enter a number: ")
-for i in range(int(x)):
-  print("A", end ='')
+for i in range(int(x)): # converts string input into int
+  print("A", end ='') # print A however many times user input is
 '''
 # Q7
 print("Q7")
-'''
+j = 0
+x = 10
+while j < 50:
+  for i in range(x):
+    y = rand.randint(0,1)
+    print(y, end ='')
+  x += 1
+  j += 1
+
+
 
       
       
