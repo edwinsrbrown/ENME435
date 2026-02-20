@@ -1,3 +1,4 @@
+'''
 # Q3
 import random as rand
 
@@ -10,7 +11,7 @@ while i < 10000:
   if(x == y):
     z = z + 1
 print("The percentage of rolls that are doubles are: ", z/i *100)
-
+'''
 # Q4
 import numpy as np
 
@@ -21,9 +22,29 @@ x = input("Input value #2: ")
 y = input("Input value #3: ")
 z = input("Input value #4: ")
 
-
 if(w < x):
   tv1 = w
-else if
-  
-  
+else
+  tv1 = x
+
+if(y < z):
+  tv2 = y
+else
+  tv2 = z
+
+tv1,tv2 = tv2,tv1
+
+if(w < x && y < z)
+w, x, y, z = tv1, x, tv2, z
+if(w < x && y > z)
+w, x, y, z = tv1, x, y, tv2
+if(w > x && y < z)
+w, x, y, z = w, tv1, tv2, z
+if(w > x && y > z)
+w, x, y, z = w, tv1, y, tv2
+
+print("w = ",w)
+print("x = ",x)
+print("y = ",y)
+print("z = ",z)
+
