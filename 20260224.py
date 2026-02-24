@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-with open("20260224.txt") as f:
+with open("20260224text.txt") as f:
   data = f.read()
 
 data = data.split('\n')
