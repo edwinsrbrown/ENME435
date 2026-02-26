@@ -12,4 +12,10 @@ cv2.imshow("Caption here", image)
 image_resized = imutils.resize(image, width=400)
 cv2.imshow("Resized Testudo", image_resized)
 
+# writing an image to file
+cv2.imwrite("20260226.jpg", image_resized)
+
 cv2.waitKey(0) # so the image doesn't just appear and disappear
+
+print("Thanks for playing!")
+
