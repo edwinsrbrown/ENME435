@@ -19,8 +19,8 @@ plt.show()
 #5
 def moving_avg(data, pt):
   stored_avgs = []
-  for i in range(len(data) - pt + 1) # e.g. 10 numbers w/ 2-pt moving avg = 9 ranges
-    for j in range(pt) # necessary to add values within each range
+  for i in range(len(data) - pt + 1): # e.g. 10 numbers w/ 2-pt moving avg = 9 ranges
+    for j in range(pt): # necessary to add values within each range
       total += data[i + j] # used to add up all the numbers in one range
     avg = total / pt # get the average of one of the ranges
     stored_avgs.append(avg) # put each avg into an array
