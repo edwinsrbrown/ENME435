@@ -34,8 +34,8 @@ for window in pt:
   pitch_avg = moving_avg(pitch_angle, window)
   x_new = np.arrange(len(pitch_avg) # new length = length of averaged pitch values
   #7          
-  mean = np.mean(pitch_avg)
-  std = np.std(pitch_avg)
+  means = np.mean(pitch_avg)
+  stds = np.std(pitch_avg)
 
 plt.plot(x, pitch_angle)
 plt.plot(x_new, pitch_avg)
@@ -43,7 +43,7 @@ plt.xlabel("Point of Data")
 plt.ylabel("Pitch Angles (Degrees)")
 plt.title("Moving Average of Raw Pitch Angle of Accelerometer vs Degrees")
 plt.legend()
-plt.text(f"Mean = {mean}\nStd = {std}") 
+plt.text(f"Mean = {means}\nStd = {stds}") 
 plt.show()
   
                   
