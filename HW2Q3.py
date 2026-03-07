@@ -37,14 +37,14 @@ for window in pt:
   means = np.mean(pitch_avg)
   stds = np.std(pitch_avg)
 
-plt.plot(x, pitch_angle)
-plt.plot(x_new, pitch_avg)
-plt.xlabel("Point of Data")
-plt.ylabel("Pitch Angles (Degrees)")
-plt.title("Moving Average of Raw Pitch Angle of Accelerometer vs Degrees")
-plt.legend()
-plt.text(f"Mean = {means}\nStd = {stds}") 
-plt.show()
+  plt.plot(x, pitch_angle)
+  plt.plot(x_new, pitch_avg)
+  plt.xlabel("Point of Data")
+  plt.ylabel("Pitch Angles (Degrees)")
+  plt.title("Moving Average of Raw Pitch Angle of Accelerometer vs Degrees")
+  plt.legend()
+  plt.text(f"Mean = {means}\nStd = {stds}") 
+  plt.show()
   
                   
       
